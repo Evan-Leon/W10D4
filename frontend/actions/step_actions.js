@@ -9,14 +9,14 @@ export const receiveSteps = (steps) => {
     };
 };
 
-export const receiveTodo = (step) => {
+export const receiveStep = (step) => {
     return {
         type: RECEIVE_STEP,
         step,
     };
 };
 
-export const removeTodo = (step) => {
+export const removeStep = (step) => {
     return {
         type: REMOVE_STEP,
         step,

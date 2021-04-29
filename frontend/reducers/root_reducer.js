@@ -1,8 +1,10 @@
 import { combineReducers } from "redux";
 import todosReducer from "./todos_reducer.js";
+import stepReducer from "./step_reducer.js";
 
 const rootReducer = combineReducers({
     todos: todosReducer,
+    steps: stepReducer,
 })
 
 
